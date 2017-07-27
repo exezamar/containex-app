@@ -1,0 +1,652 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:400,600,200,300,700,500);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300);
+/* STANDAR */
+
+    *:focus{
+        outline: 0 !important;
+        box-shadow: none !important;
+        -webkit-box-shadow:none !important;
+    }
+    .fl_none
+    {
+    	float: none;
+    }
+    a:hover
+    {
+    	text-decoration: none;
+    }
+    a.link_white:hover
+    {
+		color: black !important
+    }
+	a.link_black:hover
+	{
+		color: white !important
+	}
+	.page_active
+	{
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 10px 10px 0 10px;
+		border-color: #eb3204 transparent transparent transparent;
+		position: absolute;
+		bottom: -14px;
+		left: 36%;
+	}
+
+    a, span, { text-decoration: none; outline: none; }
+    [class*="font"],h1,h2,h3,h4,h3, li,.page_bajada{
+        	font-family: 'Exo', sans-serif;
+    }
+    [class*="font_yan"]
+    {
+    	font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+    [class*="back_img"]
+	{
+		height: 308px;
+		width: 100%;
+	}
+    a{
+        cursor: pointer ;
+        transition:all 0.2s ease-out; -webkit-transition:all 0.2s ease-out;
+    }
+    a,h1,h2,h3,h4,h3,menu{
+        padding: 0px;
+        margin: 0px;
+    }
+    [class*="page_"]
+    {
+        line-height: 21px;
+        font-size: 15px;
+    }
+    header
+    {
+		height: 800px !important;
+    }
+  	 [class*="back_img"]
+   	{
+		background-repeat: no-repeat;
+		background-position: top center;
+		background-size: cover;
+	}
+	[class*="home_icon"]
+	{
+		width: 176px;
+		height:209px;
+		position: relative;
+		margin: 40px 0px 35px 0px;
+		color: white;
+		padding: 47px 0px 0px 0px;
+		background-size: contain;
+	}
+	[class*="home_icon"] div img{
+		display: inline;
+	}
+	[class*="home_icon"] h2
+	{
+		font-size: 45px	;
+		margin-bottom: 17px;
+	}	
+	[class*="home_icon"] h4
+	{
+		font-size: 29px
+	}
+    .page_bajada
+	{
+		padding: 37px 110px;
+	}
+    	[class*="subtitulo"]
+	{
+		font-weight: 700;
+		color: #646464;
+		font-size: 17px;	
+		margin-bottom: 24px;
+	}
+    li{
+        list-style-type: none;
+    }
+
+/*HEADER*/
+	header.back_img_top_home
+	{
+		background-image: url(../img/back_home.jpg);
+	}
+	header.back_img_top_dry
+	{
+		background-image: url(../img/back_dry.jpg);
+	}
+	header.back_img_top_reefers
+	{
+		background-image: url(../img/back_refeers.jpg);
+	}
+	header.back_img_top_habitables
+	{
+		background-image: url(../img/back_habitables.jpg);
+	}
+
+	header.back_img_top_logistica
+	{
+		background-image: url(../img/back_logistica.jpg);
+	}
+
+	header.back_img_top_genset
+	{
+		background-image: url(../img/back_genset.jpg);
+	}
+	header.back_img_top_contactos
+	{
+		background-image: url(../img/back_contactos.jpg);	
+	}
+
+	header > .bajada
+	{
+		background-color: rgba(255, 255 , 255, 0.6);
+		padding: 10px 0px;
+		margin-top: 240px;
+		min-height: 100px;
+	}
+	header> .bajada h3
+	{
+		font-size: 70px;
+		color: #333333;
+		font-weight: 700
+	}
+	menu
+	{
+		background-color: rgba(204,80,55,0.9);
+	}
+	menu > figure
+	{
+		padding: 25px 0px;
+	}
+	nav.navbar
+	{
+		background-color: rgba(255,51,0,0.5);
+		border: 0px;
+		padding: 5px 0px;
+		font-weight: 600;
+	}
+	#menu_top
+	{
+		width: 600px;
+		margin: auto;
+	}
+	#menu_top ul li a
+	{
+		font-size: 25px;
+		font-weight: 500;
+	}
+
+/* FONT*/
+	.font_white
+	{
+		color: white !important;
+	}
+	.font_black
+	{
+		color: #333333 !important
+	}
+	.font_blue
+	{
+		color: #009ADD !important
+	}
+	.font_red
+	{
+		color: #FF3300
+	}
+	.semibold
+	{
+		font-weight: 600;
+	}
+
+
+/*HOME */
+	.back_img_2
+	{
+		background-image: url(../img/back_home2.jpg);
+		height: 308px;
+	}
+	.container_icons a:hover{
+		color: black
+	}
+	.home_icon_1
+	{
+		margin: 40px 0px 0px 0px;
+		background-image: url(../img/back_icon_home_1.png);
+	}
+	.home_icon_2
+	{
+		background-image: url(../img/back_icon_home_2.png);
+	}
+	.home_icon_3
+	{
+		background-image: url(../img/back_icon_home_3.png);
+	}
+	.home_icon_4
+	{
+		margin: 40px 0px 0px 0px;
+		float: right;
+		background-image: url(../img/back_icon_home_4.png);
+	}
+
+	
+/*DRY*/
+	/*STANDAR HABITABLES*/
+		.dry_bajada h5
+		{
+			margin-bottom: 0px;
+			margin-top: 0px;
+		}
+	.dry_bajada
+	{
+		margin-top: 24px;
+		float: none;
+		font-size: 16px;
+		margin-bottom: 21px;
+	}
+	.dry_bajada ul
+	{
+		display: inline-flex;
+		border: 0px;
+	}
+	.dry_bajada ul li{
+		bottom: 0px;	
+		float: none;
+	}
+	.dry_detalle
+	{
+
+	}
+	#dry_almacenamiento
+	{
+		margin-top: 30px;
+	}
+
+	.dry_detalle .font_black
+	{
+		font-size: 11px;
+		padding: 0px;
+	}
+
+	.dry_title
+	{
+		margin: 40px 0px;
+		color: #333333;
+		font-size: 21px;
+		font-weight: 600;
+	}
+	.dry_medidas div
+	{
+		text-align: left;
+		padding: 0px;
+	}
+	.dry_medidas div:not(:last-child)
+	{	
+	border-right: 1px solid #999999;
+	}
+	.dry_medidas div h1{
+		
+	}
+	.dry_slide
+	{
+		overflow: hidden;
+	}
+	.dry_slide div
+	{
+		width: 73%;
+		margin: auto
+	}
+	.slick-arrow
+	{
+		background-repeat: no-repeat;
+		height: 80px;
+		width: 133px;
+	}
+	.slick-arrow:hover
+	{
+		opacity:0.6
+	}
+	.dry_bajada ul li a:hover{
+		background-color:transparent;
+		border:1px solid transparent;
+	}
+	.dry_links
+	{
+		margin-bottom: 40px;
+		margin-top: 15px;
+	}
+	.dry_links a{
+		font-weight:500
+	}
+
+	.page_dry div div .slick-prev
+	{
+		background-image: url(../img/button_prev_gray.jpg);
+	}
+	.page_dry div div .slick-next
+	{
+		background-image: url(../img/button_next_gray.jpg);
+	}
+
+	.page_habitables div div .slick-prev
+	{
+		background-image: url(../img/button_prev_orange.jpg);
+	}
+	.page_habitables div div .slick-next
+	{
+		background-image: url(../img/button_next_orange.jpg);
+	}
+
+
+	.page_refeers div div .slick-prev
+	{
+		background-image: url(../img/button_prev_bluel.jpg);
+	}
+	.page_refeers div div .slick-next
+	{
+		background-image: url(../img/button_next_bluel.jpg);
+	}
+
+	.page_genset div div .slick-prev
+	{
+		background-image: url(../img/button_prev_green.jpg);
+	}
+	.page_genset div div .slick-next
+	{
+		background-image: url(../img/button_next_green.jpg);
+	}
+
+	.dry_back_img_2
+	{
+		background-image: url(../img/back_dry_2.jpg);
+	}
+	.dry_back_img_3
+	{
+		background-image: url(../img/back_dry_3.jpg);
+	}
+	.dry_back_img_4
+	{
+		background-image: url(../img/back_dry_4.jpg);
+	}
+	
+	.dry_title_2
+	{
+		background-color: #D9D7CC;
+		padding: 10px 0px;
+		font-size: 45px;
+		font-weight: 700
+	}
+
+/*REEFERS*/
+	.refeers_back_img_1
+	{
+		background-image: url(../img/back_refeers_2.jpg);
+	}
+	.refeers_back_img_2
+	{
+		background-image: url(../img/back_refeers_3.jpg);
+	}
+	.refeers_back_img_3
+	{
+		background-image: url(../img/back_refeers_4.jpg);
+	}
+	.refeers_back_img_4
+	{
+		background-image: url(../img/back_refeers_5.jpg);
+	}
+	.page_refeers .dry_title_2
+	{
+		background-color: #CFEBEA
+	}
+
+/*HABITABLES*/
+	.page_habitables .dry_title_2
+	{
+		background-color: #FDE3B3
+	}
+	.habitables_back_img_1
+	{
+		background-image: url(../img/back_habitables_1.jpg);
+	}
+	.habitables_back_img_2
+	{
+		background-image: url(../img/back_habitables_2.jpg);
+	}
+	.habitables_back_img_3
+	{
+		background-image: url(../img/back_habitables_3.jpg);
+	}
+
+/*LOGISTICA*/
+	.logistica_back_img_1
+	{
+		background-image: url(../img/back_logistica_2.jpg);
+		height: 450px;
+		margin-bottom: 180px;
+	}
+	.container_logistica
+	{
+		margin: 40px  auto;
+	}
+	.icon_map
+	{
+		background: url(../img/icon_check.png) no-repeat top center ;
+	}
+	#logis_ubicaciones
+	{
+		padding-left: 72px;
+	}
+	#logis_ubicaciones a
+	{
+		height: 200px;
+		position: relative;
+		margin: 40px 0px 0px 0px;
+		width: 19%;
+		z-index: 1
+	}
+	#logis_ubicaciones a div
+	{
+		position: absolute;
+		bottom: 0px;
+		width: 86%;
+	}
+	#logis_ubicaciones a div h5
+	{
+		font-weight: 700
+	;
+	}
+	#logis_ubicaciones a div span
+	{
+		font-size: 14px;
+	}
+	figure.map
+	{	
+		width: 294px;
+		position: relative;
+		top: 60px;
+	}
+	.body_logistica
+	{
+		position: absolute;
+		left: 0px;
+		width: 100%;
+		z-index: -1;
+		top: 710px;
+	}
+	#logis_container
+	{
+		opacity: 0;
+	}
+
+/*CONTACTOS*/
+	.page_contacto
+	{
+		margin: 30px 0px;
+		color: #333333
+	}
+	.page_contacto div span.contacto_title
+	{
+		font-weight:600;
+	}
+	form div .title_lis
+	{
+		line-height: 34px;
+		padding-top: 11px;
+		margin: 0px;
+		display: block;
+	}
+	.title_lis
+	{
+		margin: 24px 0px;
+	}
+	input[type=radio].form-control
+	{
+		height: 27px;
+		width: 19px;
+		float: left;
+	}
+	form div ul
+	{
+		position: relative;
+		margin: 0px;
+	}
+	form div ul li
+	{
+		width: 100%;
+	}
+	form div label
+	{
+		font-weight: 100;
+		margin: 13px 0px;
+	}
+	form div h4
+	{
+		line-height: 37px;
+		margin-top: 14px;
+		font-size: 17px;
+	}
+	form div ul li label
+	{
+		margin: 6px 0px;
+		padding: 0px 8px;
+	}
+	button[type=submit]
+	{
+		background-color: #009ADD
+	}
+	input, textarea
+	{
+		border: 1px solid black !important
+	}
+	textarea
+	{
+		height: 126px;
+		width: 100%;
+		max-height: 250px;
+		border-radius: 5px;
+	}
+
+/*FOOTER*/
+	footer > hr
+	{
+		position: relative;
+		top: 70px;
+		z-index: 1;
+		border-bottom: 0px;
+		margin: 0px;
+	}
+
+	footer > .back_img_footer
+	{
+		background-image: url(../img/footer.jpg);
+		height: 400px;
+		color: white;
+		position: relative;
+	}
+	.footer_lis h4
+	{
+		padding: 22px 0px;
+		margin-bottom: 4px;
+	}
+	.footer_lis ul
+	{
+		padding:0px;
+		line-height: 27px;
+		margin-top: 37px;
+	}
+	.footer_lis ul.map li
+	{
+		background: url(../img/icon_footer_map.png) no-repeat top left;
+		padding: 0px 0px 9px 19px;
+		line-height: 18px;
+	}
+	.footer_lis ul.map li a
+	{
+		color: white;
+		padding: 7px 0px;
+	}
+	.copyright
+	{
+		background-color: rgba(77,183,228,0.6);
+		padding: 21px 0px;
+		position: absolute;
+		width: 100%;
+		bottom: 0px;
+		min-height: 65px;
+	}
+	.icon_watsap, .icon_msj
+	{
+		width: 42px;
+		height: 90px;
+		float: left;
+		margin-right: 12px;
+	}
+	.icon_watsap
+	{
+		background: url(../img/icon_watsap.png) no-repeat 1px 6px;
+	}
+	.icon_msj
+	{
+		background: url(../img/icon_contact.png) no-repeat 0px 34px;
+	}
+	.icon_brand
+	{
+		float: right;
+	}
+
+	#container_map
+	{
+		height: 100%;
+		opacity: 0;
+	}
+	#map
+	{
+		height: 100%
+	}
+	.body_map
+	{
+		position: absolute;
+		left: 0px;
+		width: 100%;
+		height: 330px;
+		z-index: -1;
+		bottom: 331px;
+	}
+	#map, #logis_box
+	{
+		-webkit-box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.75);
+		-moz-box-shadow:    0px 0px 11px 0px rgba(50, 50, 50, 0.75);
+		box-shadow:         0px 0px 11px 0px rgba(50, 50, 50, 0.75);
+		border: 5px solid white;
+	}
+	ul.map
+	{
+		width: 226px;
+	}
+
+	.link_pdf
+	{
+		margin: 0px 70px 0px 0px;
+	}
