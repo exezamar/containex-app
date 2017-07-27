@@ -1,0 +1,56 @@
+@media (max-width: 768px){
+	.page_bajada
+	{
+		padding: 20px 0px
+	}
+	.footer_lis ul
+	{
+		margin-top: 0px
+	}
+	.footer_data
+	{
+		padding-top: 15px;
+	}
+	.link_pdf
+	{
+		margin: 0px;
+	}
+	.slick-arrow 
+	{
+		display: none !important; 
+	}
+	.dry_slide div
+	{
+		width: 100%
+	}
+	.body_logistica
+	{
+		top: 890px;
+	}
+	#menu_top
+	{
+		width: 100%
+	}
+}
+@media (min-width: 1024px){
+	#footer_first
+	{
+		width: 300px!important 
+	}
+	#footer_second
+	{
+		
+padding-left: 83px;
+		
+margin-right: 12px;
+	}
+}
+
+.home_blocks
+	{
+		width: 100%;
+	}
+.footer_slick
+{
+	width: 100%	
+}
