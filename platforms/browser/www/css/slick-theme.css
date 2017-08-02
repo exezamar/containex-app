@@ -85,7 +85,7 @@
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: 'â†’';
+    /*content: 'â†’';*/
 }
 
 .slick-next
@@ -103,7 +103,7 @@
 }
 [dir='rtl'] .slick-next:before
 {
-    content: 'â†';
+    /*content: 'â†';*/
 }
 
 /* Dots */
@@ -171,7 +171,7 @@
     left: 0;
     width: 20px;
     height: 20px;
-    content: 'â€¢';
+    content: 'o';
     text-align: center;
     opacity: .25;
     color: black;

@@ -11,15 +11,19 @@
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/style_responsive.css">
-	<link rel="stylesheet" href="css/slick.css">
-	<link rel="stylesheet" href="css/slick-theme.css">
+	<link href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css" rel="stylesheet">
+
+
+
+
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 			<![endif]-->
-		<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/29/13/intl/es_ALL/common.js" style=""></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/29/13/intl/es_ALL/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/29/13/intl/es_ALL/stats.js"></script></head>
+		</head>
 <body><header class="back_img_top_home">
 			<menu>
 				<figure class="text-center">
@@ -56,6 +60,15 @@
 	</div>
 
 </header>
+<div id='vevo' data-slick='{"slidesToShow":1, "slidesToScroll": 1}'>
+  <div><h3>1</h3></div>
+  <div><h3>2</h3></div>
+  <div><h3>3</h3></div>
+  <div><h3>4</h3></div>
+  <div><h3>5</h3></div>
+  <div><h3>6</h3></div>
+</div>
+
 	<div class="container">
 		<div class="page_bajada center-block text-center">
 			<b>Containex</b> es una empresa que opera a nivel latinoamérica, con su Head Office en Argentina.
@@ -132,7 +145,7 @@
 					</div>
 				</div>
 				
-				<div class="footer_slick slick-initialized slick-slider" role="toolbar">
+				<div id='footer_test' class="  footer_slick slick-initialized slick-slider" role="toolbar">
 					
 					
 					
@@ -227,7 +240,7 @@
 			<div class="copyright">
 				<div class="container">
 					<div class="col-md-7 col-xs-12 font_exo">
-						© Copyright 2015 - www.containex.com.ar - Todos los derechos reservados
+						© Copyright 2017 - www.containex.com.ar - Todos los derechos reservados
 					</div>
 					<div class="col-md-4 col-xs-12 text-right">
 						<img class="icon_brand" src="img/logo_footer.png" alt="">
@@ -238,12 +251,17 @@
 	</footer>
 
 	<!-- jQuery -->
-	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<!-- Bootstrap JavaScript -->
 	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-	<script src="js/slick.min.js"></script>
-	<script src="js/app.js"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 
+	<script src="js/app.js"></script>
+		<script >
+			
+		$('#vevo').slick();
+
+		</script>
 	</body>
 </html>

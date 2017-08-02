@@ -1,48 +1,48 @@
 latitud = -31.42008329999999;
 longitud = -64.18877609999998;
-xslidesto = 0
+xslidesto = 0;
 
-$('.footer_slick').slick(
-{
-  slidesToShow: 3,
-  responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-            arrows: false,
-            centerMode: false,
-            centerPadding: '0px',
-            slidesToScroll: 2,
-            slidesToShow: 2,
-            dots:true
-        },
-    },
-    {
-      breakpoint: 480,
-      settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '0px',
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          dots:true
-        }
-    }
-    ]
-});
+// $('.footer_slick').slick(
+// {
+//   slidesToShow: 1,
+//   responsive: [
+//       {
+//         breakpoint: 768,
+//         settings: {
+//             arrows: false,
+//             centerMode: false,
+//             centerPadding: '0px',
+//             slidesToScroll: 2,
+//             slidesToShow: 1,
+//             dots:true
+//         },
+//     },
+//     {
+//       breakpoint: 480,
+//       settings: {
+//           arrows: false,
+//           centerMode: true,
+//           centerPadding: '0px',
+//           slidesToShow: 2,
+//           slidesToScroll: 1,
+//           dots:true
+//         }
+//     }
+//     ]
+// });
 
 $(document).ready(function() 
 {
-	 var pageactive = getUrlParameter('page')
+   var pageactive = getUrlParameter('page')
    var width_body = window.innerWidth;
 
-	 $('.link_white div').remove('page_active')
-	 $("#page_"+pageactive).append('<div class="page_active">  </div>')
+   $('.link_white div').remove('page_active')
+   $("#page_"+pageactive).append('<div class="page_active">  </div>')
     if (pageactive== 'contactos') {
         xtipo = getUrlParameter('ubic')
         ActiveOption(xtipo);
     }
-    slick(pageactive,width_body)
+    //slick(pageactive,width_body)
 });
 
 var getUrlParameter = function getUrlParameter(sParam) {
@@ -109,55 +109,7 @@ $("#logis_ubicaciones").find('a').hover(function() {
     $(this).css('background', 'url(img/icon_check.png) no-repeat top center');
 });
 
-function slick(page,width_body) {
-    console.log(page)
-  if (page == 'logistica') {
-    xslidesto = 5
-  }
-  else if ('undefined') // HOME
-  {
-    xslidesto = 4
-  }
-  if (page == 'dry' ||  page == 'habitables' || page == 'reefers' || page == 'genset' )
-  {
-    if (width_body > 768) {
-        xslidesto = 1
-    }
-    else
-    {
-        xslidesto = 3
-    }
-  }
 
-  $('.slik_blocks').slick(
-      {
-        slidesToShow: xslidesto,
-        responsive: [
-            {
-              breakpoint: 768,
-              settings: {
-                  arrows: false,
-                  centerMode: false,
-                  centerPadding: '0px',
-                  slidesToScroll: 2,
-                  slidesToShow: 2,
-                  dots:true
-              },
-          },
-          {
-            breakpoint: 480,
-            settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: '0px',
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                dots:true
-              }
-          }
-          ]
-      });
-}
 
 
 function mostrarmapa (ubicacion) {
