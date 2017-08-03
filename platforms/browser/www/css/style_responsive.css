@@ -54,3 +54,52 @@ margin-right: 12px;
 {
 	width: 100%	
 }
+
+#cont-tipos-containers{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.slide-totcont{
+	text-align: center;
+	
+	display: flex;
+	justify-content: center;
+}
+.tback_img{
+			height: 308px;
+
+}
+
+.thome_icon_4
+{
+	margin: 40px 0px 0px 0px;
+	float: left;
+	margin-left:33%;
+	background-image: url(../img/back_icon_home_4.png);
+	width: 235px;
+}
+.thome_icon_1
+{
+	margin: 40px 0px 0px 0px;
+	float: left;
+	margin-left:33%;
+	background-image: url(../img/back_icon_home_1.png);
+	width: 235px;
+}
+.thome_icon_2
+{
+	margin: 40px 0px 0px 0px;
+	float: left;
+	margin-left:33%;
+	background-image: url(../img/back_icon_home_2.png);
+	width: 235px;
+}
+.thome_icon_3
+{
+	margin: 40px 0px 0px 0px;
+	float: left;
+	margin-left:33%;
+	background-image: url(../img/back_icon_home_3.png);
+	width: 235px;
+}
