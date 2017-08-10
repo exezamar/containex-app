@@ -2,35 +2,6 @@ latitud = -31.42008329999999;
 longitud = -64.18877609999998;
 xslidesto = 0;
 
-// $('.footer_slick').slick(
-// {
-//   slidesToShow: 1,
-//   responsive: [
-//       {
-//         breakpoint: 768,
-//         settings: {
-//             arrows: false,
-//             centerMode: false,
-//             centerPadding: '0px',
-//             slidesToScroll: 2,
-//             slidesToShow: 1,
-//             dots:true
-//         },
-//     },
-//     {
-//       breakpoint: 480,
-//       settings: {
-//           arrows: false,
-//           centerMode: true,
-//           centerPadding: '0px',
-//           slidesToShow: 2,
-//           slidesToScroll: 1,
-//           dots:true
-//         }
-//     }
-//     ]
-// });
-
 $(document).ready(function() 
 {
    var pageactive = getUrlParameter('page')
