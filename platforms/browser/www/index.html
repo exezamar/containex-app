@@ -13,6 +13,13 @@
 	<link rel="stylesheet" href="css/style_responsive.css">
 	<link href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/glide.core.min.css">
+	<link rel="stylesheet" href="css/style_responsive.css">
+	<link rel="stylesheet" href="css/glide.theme.min.css">
+
+
+	
+
 
 
 
@@ -27,7 +34,7 @@
 <body><header class="back_img_top_home">
 			<menu>
 				<figure class="text-center">
-					<a href="index.php"><img src="img/logo.png" alt=""></a>
+					<a href="index.html"><img src="img/logo.png" alt=""></a>
 				</figure>
 				<nav class="navbar navbar-default" role="navigation">
 					<div class="container">
@@ -44,12 +51,12 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div id="menu_top" class="collapse navbar-collapse navbar-ex1-collapse">
 							<ul class="nav navbar-nav">
-								<li><a class="link_white font_white font_yan" id="page_dry" href="dry.php?page=dry">Dry</a></li>
-								<li><a class="link_white font_white font_yan" id="page_reefers" href="reefers.php?page=reefers">Reefers</a></li>
-								<li><a class="link_white font_white font_yan" id="page_habitables" href="habitables.php?page=habitables">Habitables</a></li>
-								<li><a class="link_white font_white font_yan" id="page_genset" href="genset.php?page=genset">Gen Set</a></li>
-								<li><a class="link_white font_black font_yan" id="page_logistica" href="logistica.php?page=logistica">Logística</a></li>
-								<li><a class="link_white font_black font_yan" id="page_contactos" href="contactos.php?page=contactos">Contactos</a></li>
+								<li><a class="link_white font_white font_yan" id="page_dry" href="dry.html">Dry</a></li>
+								<li><a class="link_white font_white font_yan" id="page_reefers" href="reefers.html">Reefers</a></li>
+								<li><a class="link_white font_white font_yan" id="page_habitables" href="habitables.html">Habitables</a></li>
+								<li><a class="link_white font_white font_yan" id="page_genset" href="genset.html">Gen Set</a></li>
+								<li><a class="link_white font_black font_yan" id="page_logistica" href="logistica.html">Logística</a></li>
+								<li><a class="link_white font_black font_yan" id="page_contactos" href="contactos.html">Contactos</a></li>
 							</ul>
 						</div><!-- /.navbar-collapse -->
 					</div>
@@ -75,44 +82,53 @@
 		</div>
 	</div>
 	<div class="back_img_2">
-		<div class="container center-block">
-			<div>
-				<div id='cont-tipos-containers'>
-					<div class='slide-totcont' >
-						<a  class="tback_img thome_icon_3" aria-hidden="true">
-							<h4 class="font_yan">Containers</h4>
-							<h2 class="font_yan">Habitables</h2>
-							<div class="text-center"><img src="img/icon_arrow.png" alt=""></div>
-						</a>
-					</div>
-					<div class='slide-totcont' >
-						<a class=" tback_img thome_icon_4 " aria-hidden="true">
-							<h4 class="font_yan">Containers</h4>
-							<h2 class="font_yan">Gen Set</h2>
-							<div class="text-center"><img src="img/icon_arrow.png" alt=""></div>
-						</a>
-					</div>
+				<div id='cont-tipos-containers' class="glide__wrapper">
+					<ul class="glide__track">
+						<li class="glide__slide">
+							<div class='slide-totcont2' >
+								<a  class="tback_img thome_icon_3" aria-hidden="true">
+									<h4 class="font_yan">Containers</h4>
+									<h2 class="font_yan">Habitables</h2>
+									<div class="text-center"><img src="img/icon_arrow.png" alt=""></div>
+								</a>
+							</div>
+						</li>
+						<li class="glide__slide">
+							<div class='slide-totcont2' >
+								<a class=" tback_img thome_icon_4 " aria-hidden="true">
+									<h4 class="font_yan">Containers</h4>
+									<h2 class="font_yan">Gen Set</h2>
+									<div class="text-center"><img src="img/icon_arrow.png" alt=""></div>
+								</a>
+							</div>
+						</li>
+						<li class="glide__slide">
+							<div class='slide-totcont2' >
+							<a  href="dry.html" class=" tback_img thome_icon_1" aria-hidden="false">
+								<h4 class="font_yan">Containers</h4>
+								<h2 class="font_yan">Dry</h2>
+								<div class="text-center"><img src="img/icon_arrow.png" alt=""></div>
+							</a>
+							</div>
+
+						</li>
+						<li class="glide__slide">
+							  <div class='slide-totcont2' >
+								  <a  class="tback_img thome_icon_2" tabindex="0" role="option" aria-describedby="slick-slide11"  data-slick-index="1" aria-hidden="false">
+										<h4 class="font_yan">Containers</h4>
+										<h2 class="font_yan">Reefers</h2>
+										<div class="text-center"><img src="img/icon_arrow.png" alt=""></div>
+									</a>
+							  </div>
+						</li>
+					</ul>
 				  
-				  <div class='slide-totcont' >
-				  <a  class=" tback_img thome_icon_1" aria-hidden="false">
-				  	<h4 class="font_yan">Containers</h4>
-				  	<h2 class="font_yan">Dry</h2>
-				  	<div class="text-center"><img src="img/icon_arrow.png" alt=""></div>
-				  </a>
-				  </div>
-				  <div class='slide-totcont' >
-					  <a  class="tback_img thome_icon_2" tabindex="0" role="option" aria-describedby="slick-slide11"  data-slick-index="1" aria-hidden="false">
-							<h4 class="font_yan">Containers</h4>
-							<h2 class="font_yan">Reefers</h2>
-							<div class="text-center"><img src="img/icon_arrow.png" alt=""></div>
-						</a>
-				  </div>
 				</div>
 <!-- 			<div aria-live="polite" class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 2592px; transform: translate3d(-648px, 0px, 0px);" role="listbox">
 
 			
-				</div>
-	</div> -->
+				</div>-->
+	</div> 
 	<div class="container">
 		<div class="col-md-9 col-xs-12 page_bajada fl_none center-block text-center">
 			Con una capacidad de almacenamiento de 4.500 m3 en frío para productos súper congelados y
@@ -125,52 +141,59 @@
 	<footer>
 		<hr>
 		<div class="back_img_footer">
-			<div class="container">
-				<div id='vevo' class=" " role="toolbar">
-					<div class='slide-totcont' >
-						<div>
-							<h4>Depositos, Lógistica y Almacenamiento</h4>
-						</div>
-						<div class="footer_data2" >
-							<ul style='color:white; margin-top:40px;'>
-								<li style='margin-top:10px;'> <span tabindex="-1">Buenos Aires, (CABA), Argentina</span></li>
-								<li style='margin-top:10px;'> <span tabindex="-1">Ciudad de Córdoba, Argentina</span></li> 
-								<li style='margin-top:10px;'> <span tabindex="-1">Ciudad de Mendoza, Argentina</span></li> 
-								<li style='margin-top:10px;'> <span tabindex="-1">Valparaiso, Chile</span></li> 
-								<li style='margin-top:10px;'> <span tabindex="-1">Asunción, Paraguay</span></li> 
-							</ul>
-						</div>
-					</div>
-					<div class='slide-totcont' >
-						<div style='margin-top:20px;'>
-							<h4>Contactos</h4>
-						</div>
-							<div class="footer_data">
-								<div id='conticfoot'>
-									<div class="icon_watsap"></div>
-									<div class="icon_msj"></div>
+			<div class="container glide">
+				<div id='footerTot' class="glide__wrapper">
+					<ul class="glide__track">
+						<li class="glide__slide">
+							<div class='slide-totcont' >
+								<div style='margin-top:40px;'>
+									<h4>Depositos, Lógistica y Almacenamiento</h4>
 								</div>
-								<div id='contInfofot'>
-									<div>
-										<ul>
-											<li>+54 9 1157199236</li>
-											<li>+54 9 1137693739</li>
-											<li>+54 9 1132308787</li>
-										</ul>
-									</div>
-									<div style='margin-top:40px;'>
-										<ul>
-											<li> <a class="font_white" href="mailto:info@containex.com.ar" tabindex="-1">info@containex.com.ar</a></li>
-											<li> <a class="font_white" href="mailto:gerencia@containex.com.ar" tabindex="-1">gerencia@containex.com.ar</a></li>
-											<li> <a class="font_white" href="mailto:operaciones@containex.com.ar" tabindex="-1">operaciones@containex.com.ar</a></li>
-										</ul>
-									</div>
-
+								<div class="footer_data2" >
+									<ul style='color:white; margin-top:40px;'>
+										<li style='margin-top:10px;'> <span tabindex="-1">Buenos Aires, (CABA), Argentina</span></li>
+										<li style='margin-top:10px;'> <span tabindex="-1">Ciudad de Córdoba, Argentina</span></li> 
+										<li style='margin-top:10px;'> <span tabindex="-1">Ciudad de Mendoza, Argentina</span></li> 
+										<li style='margin-top:10px;'> <span tabindex="-1">Valparaiso, Chile</span></li> 
+										<li style='margin-top:10px;'> <span tabindex="-1">Asunción, Paraguay</span></li> 
+									</ul>
 								</div>
-								
-
 							</div>
-					</div>
+						</li>
+						<li class="glide__slide">
+							<div class='slide-totcont' >
+								<div style='margin-top:40px;'>
+									<h4>Contactos</h4>
+								</div>
+									<div class="footer_data">
+										<div id='conticfoot'>
+											<div class="icon_watsap"></div>
+											<div class="icon_msj"></div>
+										</div>
+										<div id='contInfofot'>
+											<div>
+												<ul style='color:white !important; text-decoration:none;'>
+													<li><span type='tel' style='color:white !important; text-decoration:none;'>+54 9 1157199236</span></li>
+													<li><span type='tel' style='color:white !important; text-decoration:none;'>+54 9 1137693739</span></li>
+													<li><span type='tel' style='color:white !important; text-decoration:none;'>+54 9 1132308787</span></li>
+												</ul>
+											</div>
+											<div style='margin-top:40px;'>
+												<ul>
+													<li> <a class="font_white" href="mailto:info@containex.com.ar" tabindex="-1">info@containex.com.ar</a></li>
+													<li> <a class="font_white" href="mailto:gerencia@containex.com.ar" tabindex="-1">gerencia@containex.com.ar</a></li>
+													<li> <a class="font_white" href="mailto:operaciones@containex.com.ar" tabindex="-1">operaciones@containex.com.ar</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+							</div>
+						</li>
+
+					</ul>
+					
+					
+					
 			
 			</div> <!-- fin -->
 				
@@ -195,25 +218,41 @@
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 	<script type="text/javascript" src="js/jquery.film_roll.js"></script>
 	<script type="text/javascript" src="js/touchswipe.js"></script>
+	<script type="text/javascript" src="js/glide.min.js"></script>
+
 
 
 	<script src="js/app.js"></script>
+	<style type="text/css">
+
+
+
+	</style>
 		<script >
 			
 			
-	var film_roll = new FilmRoll({
-        container: '#cont-tipos-containers',
-        width:'300px',
-        scroll:false,
-        move_on_start:false
-      });
-		var film_roll2 = new FilmRoll({
-	        container: '#vevo',
-	        width:'300px',
-	        scroll:false,
-	        move_on_start:false
-	      });
-
+	// var film_roll = new FilmRoll({
+ //        container: '#cont-tipos-containers',
+ //        width:'300px',
+ //        // scroll:false,
+ //        move_on_start:false
+ //      });
+	// 	var film_roll2 = new FilmRoll({
+	//         container: '#vevo',
+	//         width:'300px',
+	//         // scroll:false,
+	//         move_on_start:false,
+	//         pager:false
+	//       });
+	
+$("#cont-tipos-containers").glide({
+        type: "carousel",
+        autoplay:false
+    });
+$("#footerTot").glide({
+        type: "carousel",
+        autoplay:false
+    });
 		</script>
 	</body>
 </html>
